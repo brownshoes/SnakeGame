@@ -74,6 +74,7 @@ public class Snake {
         }
     }
 
+    //TODO FIX: There is a bug in this code that sometimes prevents respawn.
     private boolean respawnSnake(ArrayList<Snake> snakes) {
         Rectangle2D.Double three;
         Rectangle2D.Double two;

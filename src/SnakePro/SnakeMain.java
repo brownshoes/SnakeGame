@@ -55,6 +55,7 @@ public class SnakeMain {
             snakes.add(snakePlayer);
         }
 
+        //TODO clean up snake initialization
         if (SnakeMain.NUMBER_OF_ROBOT_SNAKES > 0) {
             Random rand = new Random();
             int x = this.startX;
